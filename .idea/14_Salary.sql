@@ -5,4 +5,5 @@ Callahan	Laura	Inside Sales Coordinator
 Suyama	Michael	Sales Representative
 SELECT *
 FROM `northwind`.employees
+WHERE salary BETWEEN 2000 AND 2500
 ORDER BY salary DESC;

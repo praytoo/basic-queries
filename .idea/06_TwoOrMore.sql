@@ -4,4 +4,4 @@ same price, list those in ascending order by product name.
 SELECT `productName`,`productID`,`unitPrice`, `UnitsInStock`
 FROM `northwind`.products
 WHERE UnitsInStock >= 100
-ORDER BY unitPrice DESC, ProductName = UnitPrice >= 2;
+ORDER BY unitPrice DESC, ProductName ASC;
